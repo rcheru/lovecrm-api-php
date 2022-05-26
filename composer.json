@@ -1,0 +1,38 @@
+{
+    "name": "rcheru/lovecrm-api-php",
+    "type": "library",
+    "description": "API client for managing deals, tasks and clients, Love CRM",
+    "homepage": "https://github.com/rcheru/lovecrm-api-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Chernyshov",
+            "homepage": "https://github.com/rcheru/lovecrm-api-php/contributors"
+        }
+    ],
+    "keywords": [
+        "lovecrm",
+        "deals",
+        "tasks",
+        "clients",
+        "api",
+        "php"
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "~6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "lovecrm-api-php\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lovecrm-api-php\\": "tests/"
+        }
+    }
+}
