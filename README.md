@@ -2,10 +2,6 @@
 
 > Data cleansing, enrichment and suggestions via [Love-CRM API](https://love-crm.ru/api)
 
-[![Latest Stable Version][packagist-image]][packagist-url]
-[![Total Downloads][downloads-image]][packagist-url]
-[![License][license-image]][packagist-url]
-
 Thin PHP wrapper over Love-CRM API.
 
 ## Installation
