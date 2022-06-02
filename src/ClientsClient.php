@@ -4,7 +4,7 @@ namespace LoveCrm;
 
 use DateTime;
 
-class DealsClient extends ClientBase
+class ClientsClient extends ClientBase
 {
     const BASE_URL = "https://love-crm.ru/api/v1/";
 
@@ -15,7 +15,7 @@ class DealsClient extends ClientBase
 
     public function add($value = [])
     {
-        $url = "deals/add";
+        $url = "clients/add";
         $response = $this->post($url, $value);
         return $response;
     }

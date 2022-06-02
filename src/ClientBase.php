@@ -34,6 +34,7 @@ abstract class ClientBase
         $response = $this->client->post($url, [
             "json" => $data
         ]);
+echo $response->getBody();exit;
         return json_decode($response->getBody(), true);
     }
 }

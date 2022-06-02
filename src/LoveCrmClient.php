@@ -2,7 +2,7 @@
 
 namespace LoveCrm;
 
-class DadataClient
+class LoveCrmClient
 {
     private $deals;
     private $tasks;
@@ -12,12 +12,22 @@ class DadataClient
     {
         $this->deals = new DealsClient($token, $secret);
         $this->tasks = new TasksClient($token, $secret);
-        $this->clients = new clientsClient($token, $secret);
+        $this->clients = new ClientsClient($token, $secret);
     }
 
     public function addDeal($value)
     {
-        return $this->deals->clean($value);
+        return $this->deals->add($value);
+    }
+
+    public function addTask($value)
+    {
+        return $this->tasks->add($value);
+    }
+
+    public function addClient($value)
+    {
+        return $this->clients->add($value);
     }
 
 }
