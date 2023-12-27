@@ -4,6 +4,7 @@
     "description": "API client for managing deals, tasks and clients, Love CRM",
     "homepage": "https://github.com/rcheru/lovecrm-api-php",
     "license": "MIT",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Roman Chernyshov",
