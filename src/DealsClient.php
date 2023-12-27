@@ -19,4 +19,11 @@ class DealsClient extends ClientBase
         $response = $this->post($url, $value);
         return $response;
     }
+    public function update($value = [])
+    {
+        $url = "deals/update";
+        $response = $this->post($url, $value);
+        return $response;
+    }
+
 }
