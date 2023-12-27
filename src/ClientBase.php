@@ -11,7 +11,7 @@ abstract class ClientBase
         $headers = [
             "Content-Type" => "application/json",
             "Accept" => "application/json",
-            "Authorization" => "Token " . $token,
+            "X-Authorization" => "Token " . $token,
         ];
         if ($secret) {
             $headers["X-Secret"] = $secret;
