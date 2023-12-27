@@ -25,5 +25,11 @@ class DealsClient extends ClientBase
         $response = $this->post($url, $value);
         return $response;
     }
+    public function get($value = [])
+    {
+        $url = "deals/get";
+        $response = $this->post($url, $value);
+        return $response;
+    }
 
 }
