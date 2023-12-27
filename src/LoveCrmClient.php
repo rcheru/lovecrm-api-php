@@ -20,6 +20,16 @@ class LoveCrmClient
         return $this->deals->add($value);
     }
 
+    public function updateDeal($value)
+    {
+        return $this->deals->update($value);
+    }
+
+    public function getDeal($value)
+    {
+        return $this->deals->get($value);
+    }
+
     public function addTask($value)
     {
         return $this->tasks->add($value);
