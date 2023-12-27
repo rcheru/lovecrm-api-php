@@ -34,5 +34,7 @@
         "psr-4": {
             "lovecrm-api-php\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "dev", 
+    "prefer-stable": true 
 }
